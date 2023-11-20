@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+@font-face {
+    font-family: 'Marvel';
+    src: url(fonts/MarvelRegular-Dj83.ttf);
+}
+body{
+    margin:0%;
+}
+
+main{
+    width: 1516px;
+    height: 730px;
+    border: 2px solid black;
+    background-image: url(images/marvelfundo.jpg);
+    opacity: 0.9;
+}
+main > h1{
+    font-family: 'Marvel';
+    font-size: 70px;
+    letter-spacing: 10px;
+    color: white;
+    margin-top: 20%;
+    text-align: center;
+}
+.secao{
+
+
+    width: 1516px;
+    height: 730px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.secao > .texto{
+    width: 600px;
+    height: 730px;
+  /*  border: 2px solid white;*/
+    margin: auto;
+}
+.texto > h1{
+    font-family: 'Marvel';
+    color: white;
+    font-size: 50px;
+    letter-spacing: 30px;
+    margin-left: 20px;
+    text-align: center;
+}
+.texto > p{
+    color: white;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    width: 600px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.secao > .img{
+    width: 800px;
+   /* border: 2px solid white;*/
+    opacity: 0.7;
+
+}
+
+
+#miranha{
+    background-color: black;
+}
+#homem_de_ferro{
+    background-color: #73061A;
+}
+#thor{
+    background-color: #8C837A;
+}
